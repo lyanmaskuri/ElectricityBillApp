@@ -73,7 +73,7 @@
             android:onClick="openGitHubLink"
             android:fontFamily="@font/poppins_regular" />
 
-        <TextView android:text="© 2025 Current. All Right Reserved ElectricityBillApp"
+        <TextView android:text="© 2026 Current. All Right Reserved ElectricityBillApp"
             android:textColor="@color/textSecondary"
             android:layout_marginTop="12dp"
             android:layout_width="match_parent"
