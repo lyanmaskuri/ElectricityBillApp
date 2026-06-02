@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/poppins_regular"
+            android:text="ABOUT DEVELOPER"
+            android:textColor="@color/textPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <TextView android:text="This user-friendly app is developed to calculate monthly electricity bills efficiently with many features."
+            android:textColor="@color/textPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular" />
+
+        <ImageView
+            android:id="@+id/about_image"
+            android:src="@drawable/profile"
+            android:layout_width="150dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="About photo" />
+
+        <TextView android:text="Student Name: PUTERI NUR LYANA BINTI MASKURI"
+            android:textColor="@color/textPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular" />
+
+        <TextView android:text="Student ID: 2025111125"
+            android:textColor="@color/textPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular" />
+
+        <TextView android:text="Class: CDCS2515A"
+            android:textColor="@color/textPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular" />
+
+        <TextView android:text="Course: ICT602 - MOBILE TECHNOLOGY AND DEVELOPMENT"
+            android:textColor="@color/textPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular" />
+
+        <TextView
+            android:id="@+id/github_link"
+            android:text="GitHub Repository"
+            android:textColor="@android:color/holo_blue_light"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openGitHubLink"
+            android:fontFamily="@font/poppins_regular" />
+
+        <TextView android:text="© 2025 Current. All Right Reserved ElectricityBillApp"
+            android:textColor="@color/textSecondary"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/detail_month"
+            android:text="Month:"
+            android:textColor="@color/textPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular" />
+
+        <TextView
+            android:id="@+id/detail_unit"
+            android:text="Unit Used:"
+            android:textColor="@color/textPrimary"
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular" />
+
+        <TextView
+            android:id="@+id/detail_total"
+            android:text="Total Charges:"
+            android:textColor="@color/textPrimary"
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular" />
+
+        <TextView
+            android:id="@+id/detail_rebate"
+            android:text="Rebate %:"
+            android:textColor="@color/textPrimary"
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular" />
+
+        <TextView
+            android:id="@+id/detail_final"
+            android:text="Final Cost:"
+            android:textColor="@color/textPrimary"
+            android:paddingTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular" />
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/btn_update"
+            android:text="Update Bill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:text="Delete Bill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#E53935" />
+
+    </LinearLayout>
+</ScrollView>
