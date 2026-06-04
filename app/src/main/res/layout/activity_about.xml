@@ -73,6 +73,70 @@
             android:onClick="openGitHubLink"
             android:fontFamily="@font/poppins_regular" />
 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#2563EB"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="1dp"/>
+
+        <!-- HOW TO USE TITLE -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HOW TO USE THIS APP"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <!-- STEP 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Select the month from the dropdown menu."
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <!-- STEP 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Enter the electricity usage (kWh)."
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <!-- STEP 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Adjust the rebate percentage using the slider."
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <!-- STEP 4 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Click the CALCULATE button to view the total and final cost."
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/poppins_regular"/>
+
+        <!-- STEP 5 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Click VIEW RECORDS to see saved bills and tap any item for details."
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="@font/poppins_regular"/>
+
         <TextView android:text="© 2026 Current. All Right Reserved ElectricityBillApp"
             android:textColor="@color/textSecondary"
             android:layout_marginTop="12dp"
